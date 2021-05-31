@@ -1,0 +1,42 @@
+{
+  "name": "sistema_cadastro_produto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "sucrase-node src/server.js",
+    "deving": "nodemon ./src/server.js",
+    "debug:test": "node --inspect-brk -r sucrase/register",
+    "debug": "node --inspect-brk -r sucrase/register ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regi1968-engsw/sistema_cadastro_produto.git"
+  },
+  "keywords": [],
+  "author": "reginaldo <igorind68@gmail.com> (https://github.com/regi1968-engsw)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/regi1968-engsw/sistema_cadastro_produto/issues"
+  },
+reginaldo   "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  },
+  "jest": {
+    "transform": {
+      ".(js|jsx|ts|tsx)": "@sucrase/jest-plugin"
+    },
+    "testEnvironment": "node"
+  }
+}
