@@ -13,15 +13,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kel-lorran/sistema_cadastro_produto.git"
+    "url": "git+https://github.com/reginaldo68cudengwnhariasw/sistema_cadastro_produto.git"
   },
   "keywords": [],
   "author": "reginaldo <igorind68@gmail.com> (https://github.com/regi1968-engsw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/regi1968-engsw/sistema_cadastro_produto/issues"
+    "url": "https://github.com/reginaldo68engenhariasw/sistema_cadastro_produto/issues"
   },
-  "homepage": "https://github.com/regi1968-engsw/sistema_cadastro_produto#readme",
+  "homepage": "https://github.com/reginaldo68engenhariasw/sistema_cadastro_produto#readme",
   "devDependencies": {
     "@sucrase/jest-plugin": "^2.0.0",
     "jest": "^26.0.1",
